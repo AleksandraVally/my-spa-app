@@ -1,0 +1,138 @@
+.product-card {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    background-color: #ffffff;
+    margin: 16px;
+    width: 300px;
+    
+    
+    
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-card-content {
+    padding: 16px;
+}
+
+.product-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+}
+
+.product-card-price {
+    color: #e91e63;
+    font-size: 16px;
+    margin: 0;
+}
+
+.product-card-description {
+    font-size: 14px;
+    color: #555;
+    margin: 8px 0 0 0;
+}
+
+
+.like-button, .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.like-button:hover {
+    color: red;
+}
+
+.delete-button:hover {
+    color: #ff0000;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filter-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.filter-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.5), 0 0 60px rgba(0, 255, 255, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.filter-button:hover::before {
+    opacity: 1;
+}
+
+.filter-button:focus {
+    outline: none;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 16px; 
+    padding: 16px;
+}
+
+.product-card {
+    background-color: #98c9fe; 
+    color: white; 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 15px; 
+    transition: transform 0.3s; 
+    cursor: pointer; 
+}
+
+.product-card:hover {
+    transform: scale(1.05); 
+}
+
+button {
+    background-color: #9ccdff; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #1f1d4a; 
+}
