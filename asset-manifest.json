@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-spa-app/static/css/main.ab4f4051.css",
-    "main.js": "/my-spa-app/static/js/main.55539b79.js",
+    "main.js": "/my-spa-app/static/js/main.d3551ede.js",
     "static/media/fa-solid-900.ttf": "/my-spa-app/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
     "static/media/fa-brands-400.ttf": "/my-spa-app/static/media/fa-brands-400.26b80c8830bebf340211.ttf",
     "static/media/fa-solid-900.woff2": "/my-spa-app/static/media/fa-solid-900.83a538a018a9e44b023a.woff2",
@@ -12,10 +12,10 @@
     "static/media/fa-v4compatibility.woff2": "/my-spa-app/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
     "index.html": "/my-spa-app/index.html",
     "main.ab4f4051.css.map": "/my-spa-app/static/css/main.ab4f4051.css.map",
-    "main.55539b79.js.map": "/my-spa-app/static/js/main.55539b79.js.map"
+    "main.d3551ede.js.map": "/my-spa-app/static/js/main.d3551ede.js.map"
   },
   "entrypoints": [
     "static/css/main.ab4f4051.css",
-    "static/js/main.55539b79.js"
+    "static/js/main.d3551ede.js"
   ]
 }
